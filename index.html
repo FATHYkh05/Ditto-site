@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>DITTO. — Living Made Better</title>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header id="top">
+  <div class="bar">
+    <a href="#top" class="logo">DITTO<span>.</span></a>
+    <nav id="nav" aria-label="Main">
+      <a href="#homes" data-tab="buy">Buy</a>
+      <a href="#homes" data-tab="rent">Rent</a>
+      <a href="#about">About</a>
+      <a href="#stories">Stories</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#contact" class="cta">Book a visit</a>
+    <button id="burger" aria-label="Open menu" aria-expanded="false"><i></i><i></i></button>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="bg" style="background-image:url('images/kitchen.jpg')" role="img" aria-label="Modern kitchen with wooden island"></div>
+  <div class="hero-in">
+    <h1><span class="ln"><span>Living</span></span> <span class="ln"><span>Made</span></span> <span class="ln"><span>Better</span></span></h1>
+    <div class="pills">
+      <a href="#homes" class="pill" data-tab="buy">Buy</a>
+      <a href="#homes" class="pill" data-tab="rent">Rent</a>
+    </div>
+  </div>
+  <a href="#homes" class="scroll" aria-label="Scroll down"><i></i></a>
+</section>
+
+<section id="homes" class="sec">
+  <div class="head rv">
+    <div><h2>Find a home that fits</h2><p>Hand-picked places with real kitchens, real light and fair terms.</p></div>
+    <div class="tabs" role="tablist" aria-label="Buy or rent">
+      <button role="tab" id="t-buy" aria-selected="true" data-tab="buy">Buy</button>
+      <button role="tab" id="t-rent" aria-selected="false" data-tab="rent">Rent</button>
+      <span class="slider"></span>
+    </div>
+  </div>
+  <div class="cards rv" id="cards">
+    <article class="card" data-k="buy"><div class="im"><img src="images/island.jpg" alt="Kitchen island with leather stools" loading="lazy"><button class="fav" aria-label="Save home" aria-pressed="false">♥</button></div><div class="tx"><h3>The Walnut Loft</h3><p>3 bed · 2 bath · 148 m²</p><b>$485,000</b></div></article>
+    <article class="card" data-k="buy"><div class="im"><img src="images/cabinet.jpg" alt="Glass display cabinet and dining room" loading="lazy"><button class="fav" aria-label="Save home" aria-pressed="false">♥</button></div><div class="tx"><h3>Garden Court Residence</h3><p>4 bed · 3 bath · 210 m²</p><b>$720,000</b></div></article>
+    <article class="card" data-k="buy"><div class="im"><img src="images/ovens.jpg" alt="Built-in ovens and tap" loading="lazy"><button class="fav" aria-label="Save home" aria-pressed="false">♥</button></div><div class="tx"><h3>Studio One Penthouse</h3><p>2 bed · 2 bath · 96 m²</p><b>$365,000</b></div></article>
+    <article class="card" data-k="rent" hidden><div class="im"><img src="images/mixer.jpg" alt="Marble countertop with stand mixer" loading="lazy"><button class="fav" aria-label="Save home" aria-pressed="false">♥</button></div><div class="tx"><h3>Marble Row Apartment</h3><p>2 bed · 1 bath · 82 m²</p><b>$1,450 / month</b></div></article>
+    <article class="card" data-k="rent" hidden><div class="im"><img src="images/dining.jpg" alt="Dining table and green chairs" loading="lazy"><button class="fav" aria-label="Save home" aria-pressed="false">♥</button></div><div class="tx"><h3>Oak Table Flat</h3><p>1 bed · 1 bath · 64 m²</p><b>$980 / month</b></div></article>
+    <article class="card" data-k="rent" hidden><div class="im"><img src="images/island.jpg" alt="Open kitchen with wooden island" loading="lazy" style="object-position:20% 60%"><button class="fav" aria-label="Save home" aria-pressed="false">♥</button></div><div class="tx"><h3>Open Plan Duplex</h3><p>3 bed · 2 bath · 130 m²</p><b>$2,100 / month</b></div></article>
+  </div>
+</section>
+
+<section id="about" class="sec soft">
+  <div class="about">
+    <img class="rv" src="images/kitchen.jpg" alt="Our showroom kitchen" loading="lazy">
+    <div class="rv">
+      <h2>We start with the kitchen</h2>
+      <p>It's where a home really works. Ditto finds places with good materials, honest layouts and light you want to wake up to, then makes buying or renting them simple.</p>
+      <div class="nums">
+        <div><b data-n="12">0</b><span>years in business</span></div>
+        <div><b data-n="480">0</b><span>homes sold and let</span></div>
+        <div><b data-n="1200">0</b><span>happy families</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="stories" class="sec">
+  <div class="head rv"><div><h2>Stories</h2><p>Ideas and advice for living well.</p></div></div>
+  <div class="cards rv">
+    <article class="card story"><div class="im"><img src="images/mixer.jpg" alt="" loading="lazy"></div><div class="tx"><h3>Five details that make a kitchen feel finished</h3><p>5 min read</p></div></article>
+    <article class="card story"><div class="im"><img src="images/cabinet.jpg" alt="" loading="lazy"></div><div class="tx"><h3>Buying your first home: a calm checklist</h3><p>7 min read</p></div></article>
+    <article class="card story"><div class="im"><img src="images/dining.jpg" alt="" loading="lazy"></div><div class="tx"><h3>Renting well: what to ask before you sign</h3><p>4 min read</p></div></article>
+  </div>
+</section>
+
+<section id="contact" class="sec soft">
+  <div class="contact rv">
+    <div>
+      <h2>Let's talk</h2>
+      <p>Tell us what you're looking for. We reply within one working day.</p>
+      <ul class="info"><li><b>Phone</b>+20 100 000 0000</li><li><b>Email</b>hello@ditto.example</li><li><b>Office</b>24 Nile Street, Mansoura</li><li><b>Hours</b>Sun – Thu, 9:00 – 18:00</li></ul>
+    </div>
+    <form id="form" novalidate>
+      <label>Name<input name="n" autocomplete="name" required></label>
+      <label>Email<input name="e" type="email" autocomplete="email" required></label>
+      <label class="full">I want to<select name="i"><option>Buy a home</option><option>Rent a home</option><option>Something else</option></select></label>
+      <label class="full">Message<textarea name="m" rows="4"></textarea></label>
+      <button type="submit" class="pill dark">Send message</button>
+      <div class="msg" id="msg" role="status"></div>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer><div class="foot"><a href="#top" class="logo">DITTO<span>.</span></a><small>© 2026 Ditto. Living made better.</small></div></footer>
+<script src="script.js"></script>
+</body>
+</html>
